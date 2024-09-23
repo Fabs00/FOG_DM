@@ -27,15 +27,14 @@ Se trata de una base de datos de 5k filas por 22 columnas, de las que tenemos:
  |-- Region: string (nullable = true) 
 
 ## Edades
-+-------+-----------------+
+|-------|-----------------|
 |summary|              Age|
-+-------+-----------------+
+|-------|-----------------|
 |  count|             5000|
 |   mean|           40.995|
 | stddev|11.29602120301673|
 |    min|               22|
 |    max|               60|
-+-------+-----------------+
 
 ## Rol de trabajo
 
@@ -51,16 +50,7 @@ Se trata de una base de datos de 5k filas por 22 columnas, de las que tenemos:
 
 ## Region
 ![Gráfico de Regiones](grafico_regiones.png)
-+-------------+------+
-|       Region|conteo|
-+-------------+------+
-|       Europe|   840|
-|       Africa|   860|
-|North America|   777|
-|South America|   827|
-|      Oceania|   867|
-|         Asia|   829|
-+-------------+------+
+
 
 ## Modelo de trabajo
 +-------------+------+
